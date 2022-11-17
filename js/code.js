@@ -25,19 +25,19 @@ function Dog(name) {
 }
 
 // Create objects
-// let person1 = new Person('David', 'Henk');
-// let dog1 = new Dog('Inga');
+let person1 = new Person('David', 'Henk');
+let dog1 = new Dog('Inga');
 
 // Check if a person is a person
-// function testing(obj) {
-//     if(obj.constructor !== Person)
-//         return "You are not a person";
-//     return "You are a person";
-// }
-// console.log(testing(dog1));
+function testing(obj) {
+    if(obj.constructor !== Person)
+        return "You are not a person";
+    return "You are a person";
+}
+console.log(testing(dog1));
 
 // Make use of instanceof
-// console.log(person1 instanceof Person ? "You are a person" : "You are not a person");
+console.log(person1 instanceof Person ? "You are a person" : "You are not a person");
 
 
 /*
