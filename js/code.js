@@ -34,7 +34,8 @@ function testing(obj) {
         return "You are not a person";
     return "You are a person";
 }
-console.log(testing(dog1));
+// console.log(testing(dog1));
+testing(person1);
 
 // Make use of instanceof
 console.log(person1 instanceof Person ? "You are a person" : "You are not a person");
